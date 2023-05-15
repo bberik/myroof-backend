@@ -21,6 +21,6 @@ urlpatterns = [
     path('refresh', TokenRefreshView.as_view(), name='token_refresh'),
     path('my-properties', views.ListedPropertiesView),
     path('update-profile', views.UpdateProfileView),
-    path('buildings', BuildingListView.as_view(),),
+    path('buildings', BuildingListView.as_view()),
 ]
 

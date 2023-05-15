@@ -139,4 +139,3 @@ def UpdateProfileView(request):
     except Exception as e:
         return JsonResponse({'detail': str(e)}, status=500)
     
-
